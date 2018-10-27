@@ -13,7 +13,7 @@ nav a{
     margin-right:4em;
 }
 #home{
-    width: 100wh;
+  
 	height: 100vh;
 	color: #fff;
 	/* background: linear-gradient(-80deg, #f5cb5c, #949494, #949494, #f5cb5c);
@@ -55,20 +55,94 @@ nav a{
 } */
 
 #about{
-    width: 100vw;
-	height: 100vh;
+    height: auto;
+    padding-bottom: 40vh;
+  
 }
 
 .about-title{
-    margin-left:37%;
-    font-size: 5em;
-    color: #fff;
-    mix-blend-mode: difference;
+    text-align: center;
+    margin-top:120px;
+    font-size: 8em;
+    padding-bottom: -2px;
+    color: #000;
+    font-weight: 300;
 }
+
+
+.about-sub-title{
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: -2px;
+}
+
+.about-sub-block{
+    margin-top: 180px;
+    width: 80%;
+}
+
+.block-text{
+    text-align: center;
+    margin: auto;
+    width: 75%;
+    font-size: 2em;
+}
+ 
+#services{
+    height: 100vh;
+    
+}
+
+
+.services-title{
+    margin-top: -220px;
+    width: 100%;
+    font-size: 8em;
+    text-align: center;
+
+}
+
+.service-block{
+    background: #000;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+}
+.gradient-background{
+     background: linear-gradient(-80deg, #f5cb5c, #949494, #949494, #f5cb5c);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+
+}
+  .gradient-separator{
+    display: block;
+    width: 530px;
+    height: 6px;
+    margin: auto;
+    background: linear-gradient(-80deg, #f5cb5c, #949494, #949494, #f5cb5c);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite; 
+    text-align: center;
+  }
+  .gradient-separator-ss{
+    display: block;
+    width: 200px;
+    height: 3px;
+    margin: auto;
+    background: linear-gradient(-80deg, #f5cb5c, #949494, #949494, #f5cb5c);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite; 
+    text-align: center;
+  }
+
 .black-box{
-    position: absolute;
-    width: 40%;
-    height:100%;
+    display: inline-block;
     background-color: black;
     z-index: -1;
 }
