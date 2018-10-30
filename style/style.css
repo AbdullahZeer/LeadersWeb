@@ -1,5 +1,7 @@
 body{
     font-family: 'Work Sans', sans-serif;
+    font-size: 1vw;
+    overflow-x: hidden;
 }
 
 nav{
@@ -10,10 +12,13 @@ nav a{
     color: #fff;
     font-size:2em;
     font-weight: 300;
-    margin-right:4em;
+    margin-right:2em;
 }
 #home{
-  
+    background-image: url("../Riyadh.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 	height: 100vh;
 	color: #fff;
 	/* background: linear-gradient(-80deg, #f5cb5c, #949494, #949494, #f5cb5c);
@@ -96,18 +101,12 @@ nav a{
 
 .services-title{
     margin-top: -220px;
-    width: 100%;
     font-size: 8em;
     text-align: center;
 
 }
 
-.service-block{
-    background: #000;
-    margin: auto;
-    width: 400px;
-    height: 400px;
-}
+
 .gradient-background{
      background: linear-gradient(-80deg, #f5cb5c, #949494, #949494, #f5cb5c);
 	background-size: 400% 400%;
