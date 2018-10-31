@@ -23,10 +23,10 @@
       <a href="">Team</a>
       <a href="">Contact us</a>
     </nav>
-    <div class="container-fluid">
+    <div class="logo-box">
       
-    <div class="gradient-box row">
-      <img src="leaders.tweeter.png" class="col-m-4 Responsive image  mx-auto ">
+    <div class="">
+      <img src="leaders.tweeter.png" class="logo img-fluid  mx-auto ">
     </div>
     <h1 class="main-title text-center linear-wipe">Leads You Anywhere</h1>
 
@@ -70,7 +70,9 @@
     
       <div class="col-md-6 col-sm-12 mx-auto contact-box" style="text-align: center;">
           <div class="contact-box">
-              <form method="POST" action="https://formspree.io/Leaders4org@gmail.com">
+              <div class="form-sub-title">send email for us</div>
+              <div class="gradient-separator-ss"></div>
+              <form class="email-form" method="POST" action="https://formspree.io/Leaders4org@gmail.com">
                 <div class="form-group">
                   <input  class="form-control" aria-label="Sizing example input" type="email" name="email" placeholder="Your email">
                 </div>
@@ -84,51 +86,41 @@
 
   <div class="col-md-6 col-sm-12 mx-auto contact-box" style="text-align: center;">
     <div class="contact-box">
-      <form method="POST" action="https://formspree.io/Omar.alhamdan37@gmail.com">
+        <div class="form-sub-title">apply for service</div>
+        <div class="gradient-separator-ss"></div>
+      <form class="service-form" method="POST" action="https://formspree.io/Omar.alhamdan37@gmail.com">
       
         <div class="form-group">
+          <span class="q-form">need photographer?</span>
           <input type="checkbox" name="Photographer" id=""  autocomplete="off">
-          Photographer
         </div>
           <hr>
         
           <div class="form-group">
-            <input type="checkbox" name="organizer" id="" autocomplete="off">
-            organizer  
+            <span class="q-form">need organizer?</span>  
+            <input type="checkbox" onchange='handleChange(this);' name="organizer" id="" autocomplete="off">
           </div>
-        
-         
-        
-      
+
     <div style= "" class="col-md-12">
-      <div class="flex-container">
+      <div class="flex-container hide">
+          <h4>male</h4>
         <div class="form-group">
-          <div style= "display: flex;" class="flex-container">
-            Male
-<<<<<<< HEAD
-            <button type="button" class="btn myButton">+</button>
-            <input class="text-num" aria-label="Sizing example input" type="number" name="boys" placeholder="0">
-            <button type="button" class="btn myButton">-</button>
-=======
-            <button id="Boyplus" type="button" class="btn myButton">+</button>
-            <input id="Boyinput" style="width:100%" class="form-control" aria-label="Sizing example input" type="number" name="boys" placeholder="0">
-            <button id="Boyminus" type="button" class="btn myButton">-</button>
->>>>>>> 20a0fa4b2055e28955fb4f9de4da0bdb32d7e03d
+           
+          <div style= "display: flex;" class="">
+
+            <button id="Boyplus" type="button" class="btn myButton m-myButton">+</button>
+            <input id="Boyinput" class="text-num" aria-label="Sizing example input" type="number" name="boys" placeholder="0">
+            <button id="Boyminus" type="button" class="btn myButton m-myButton">-</button>
+
             </div>
         </div>
-  
+        <h4>female</h4>
         <div class="form-group">
-          <div style= "display: flex;" class="flex-container">
-            female 
-<<<<<<< HEAD
-            <button type="button" class="btn myButton">+</button>
-            <input class="text-num" aria-label="Sizing example input" type="number" name="girls" placeholder="0">
-            <button type="button" class="btn myButton">-</button>
-=======
-            <button id="girlplus" type="button" class="btn myButton">+</button>
-            <input id="girlsinput" style="padding: 10px;" class="form-control" aria-label="Sizing example input" type="number" name="girls" placeholder="0">
-            <button id="girlminus" type="button" class="btn myButton">-</button>
->>>>>>> 20a0fa4b2055e28955fb4f9de4da0bdb32d7e03d
+          <div style= "display: flex;" class="">
+            <button id="girlplus" type="button" class="btn myButton m-myButton">+</button>
+            <input id="girlsinput" class="text-num" aria-label="Sizing example input" type="number" name="girls" placeholder="0">
+            <button id="girlminus" type="button" class="btn myButton m-myButton">-</button>
+
             </div>
         </div>
       </div>

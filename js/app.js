@@ -29,3 +29,12 @@
     
 
   });
+
+  function handleChange(checkbox) {
+    if(checkbox.checked == true){
+      $(".flex-container").removeClass("hide");
+    }else{
+      $(".flex-container").addClass("hide");
+   }
+}
+
