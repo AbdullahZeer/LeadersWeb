@@ -29,10 +29,19 @@ nav a{
     background-color: black;
 }
 
+.logo-box{
+    overflow: hidden;
+    position: relative;
+}
+.logo{
+    width: 400px;
+    display: block;
+    margin:220px;
+}
 .main-title{
     font-size: 5em;
     font-weight: 300;
-    margin-top: 25%;
+    margin-top: -220px;
     text-align: center;
 }
 
@@ -98,7 +107,7 @@ nav a{
 }
  
 #services{
-    height: 100vh;
+    height: 40vh;
     
 }
 
@@ -115,6 +124,28 @@ nav a{
     margin:auto; 
     padding-top:20px;
 }
+
+#Form{
+    height: 90vh;
+}
+
+.form-sub-title{
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.email-form{
+    margin-top:40px;
+}
+.service-form{
+    margin-top:40px;
+}
+
+.q-form{
+    font-size: 1.3em;
+
+}
+
 .gradient-background{
      background: linear-gradient(-80deg, #f5cb5c, #949494, #949494, #f5cb5c);
 	background-size: 400% 400%;
@@ -184,7 +215,12 @@ nav a{
 .flex-container {
     display: flex;
     flex-direction: row;
+    margin: 40px;
   }
+
+.hide{
+    display: none;
+}
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
@@ -246,7 +282,7 @@ nav a{
   @media only screen and (max-width: 440px){
  
     body{
-        font-size: 1.7vw;
+        font-size: 2vw;
     }
 
     #home{
@@ -254,7 +290,7 @@ nav a{
     }
 
     .main-title{
-        margin-top: 60%;
+        margin-top: 1%;
     }
 
     .gradient-separator{
@@ -269,6 +305,33 @@ nav a{
 
     .flex-container {
         flex-direction: column;
+        margin: auto;
       }
      
+      .m-myButton {
+          font-size:16px; 
+       border-radius: 100%;
+       width: 50px;
+       height: 50px;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       vertical-align: middle;
+       float:right;
+     overflow:visible;
+        vertical-align:text-top;
+        text-align:center;
+        text-overflow: ellipsis
+     }
+
+     .contact-box{
+        width: 95%;
+        text-align: center;
+    }
+
+    .text-num{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+       margin: auto;
+    }
     }
