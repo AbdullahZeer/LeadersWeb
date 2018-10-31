@@ -110,7 +110,10 @@ nav a{
 
 }
 
-
+.contact-box{
+    width: 70%;
+    margin:auto; 
+}
 .gradient-background{
      background: linear-gradient(-80deg, #f5cb5c, #949494, #949494, #f5cb5c);
 	background-size: 400% 400%;
@@ -157,7 +160,7 @@ nav a{
 	color:#000000;
 	font-family:Arial;
 	font-size:17px;
-	padding:15px 20px;
+	padding:10px 10px;
     text-decoration:none;
     margin-right: 10px;
     margin-left: 10px;
