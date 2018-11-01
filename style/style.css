@@ -134,9 +134,11 @@ nav a{
     font-size: 3em;
     font-weight: 300;
 }
-
+.email-box{
+    margin-top: 31px;
+}
 .email-form{
-    margin-top:40px;
+    margin-top:60px;
 }
 .service-form{
     margin-top:40px;
@@ -220,7 +222,7 @@ nav a{
   }
 
 .hide{
-    display: none;
+   display: none;
 }
 @-webkit-keyframes Gradient {
 	0% {
@@ -291,7 +293,11 @@ nav a{
     }
 
     .main-title{
-       
+       font-size: 4.2em;
+    }
+
+    .logo{
+        width: 80%;
     }
 
     .gradient-separator{
@@ -335,4 +341,5 @@ nav a{
         text-align: center;
        margin: auto;
     }
+
     }
