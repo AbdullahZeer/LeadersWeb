@@ -30,11 +30,12 @@ nav a{
 }
 
 .logo-box{
+    width:100%;
     overflow: hidden;
     position: relative;
 }
 .logo{
-    width: 400px;
+
     display: block;
     margin:220px;
 }
@@ -265,8 +266,8 @@ nav a{
     color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-animation: shine 8s linear infinite;
-            animation: shine 8s linear infinite;
+    -webkit-animation: shine 4s linear infinite;
+            animation: shine 4s linear infinite;
   }
   @-webkit-keyframes shine {
     to {
@@ -290,7 +291,7 @@ nav a{
     }
 
     .main-title{
-        margin-top: 1%;
+       
     }
 
     .gradient-separator{
