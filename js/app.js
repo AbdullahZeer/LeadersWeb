@@ -14,6 +14,21 @@
      
 
   });
+  document.getElementById("bodyguardplus").addEventListener("click", function() {
+    console.log("bodyguardplus ");
+    
+        document.getElementById("bodyguard").value++;
+
+     
+  });
+  document.getElementById("bodyguardminus").addEventListener("click", function() {
+    console.log("bodyguard ");
+    if(document.getElementById("bodyguard").value != 0){
+        document.getElementById("bodyguard").value--;
+    }
+     
+
+  });
   document.getElementById("girlplus").addEventListener("click", function() {
     console.log("girlplus ");
     

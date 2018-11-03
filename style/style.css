@@ -128,20 +128,26 @@ nav a{
 }
 
 .black-flex{
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 80%;
-    background-color: #000;
+    background-color: rgb(255, 255, 255);
     margin: auto;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    margin-top: 10%;
+
 }
+
+
 
 .team-mem{
     margin: 20px;
-    color:white;
-    font-size: 4em;
+    color: black;
+    font-size: 1.8em;
     padding: 20px;
-    text-align: center;
+    /* text-align: center; */
 }
  
 #services{
@@ -380,7 +386,21 @@ a.underline-link {
       background-position: 200% center;
     }
   }
-  
+  @media only screen and (min-width:440px){
+
+    .black-flex div:nth-child(1) {
+        text-align: left;
+    }
+    .black-flex div:nth-child(2) {
+        text-align: right;
+    }
+    .black-flex div:nth-child(3) {
+        text-align: center;
+    }
+    .black-flex div:nth-child(4) {
+        text-align: left;
+    }
+  }
   @media only screen and (max-width: 440px){
  
     body{
@@ -440,6 +460,10 @@ a.underline-link {
         height: 40px;
         text-align: center;
        margin: auto;
+    }
+
+    .black-flex {
+        text-align: center;
     }
 
     }
