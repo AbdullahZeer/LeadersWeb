@@ -137,6 +137,7 @@ nav a{
     border-left: none;
     border-right: none;
     margin-top: 10%;
+    text-align: center;
 
 }
 
@@ -386,21 +387,7 @@ a.underline-link {
       background-position: 200% center;
     }
   }
-  @media only screen and (min-width:440px){
-
-    .black-flex div:nth-child(1) {
-        text-align: left;
-    }
-    .black-flex div:nth-child(2) {
-        text-align: right;
-    }
-    .black-flex div:nth-child(3) {
-        text-align: center;
-    }
-    .black-flex div:nth-child(4) {
-        text-align: left;
-    }
-  }
+  
   @media only screen and (max-width: 440px){
  
     body{
