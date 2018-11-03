@@ -42,7 +42,9 @@ nav a{
 .logo{
 
     display: block;
-    margin:12%;
+    width: 40%;
+    margin: auto;
+    padding-top: 180px;
 }
 .main-title{
     font-size: 5em;
@@ -76,7 +78,7 @@ nav a{
 
 #about{
     height: auto;
-    padding-bottom: 40vh;
+    padding-bottom: 10vh;
   
 }
 
@@ -112,15 +114,45 @@ nav a{
     width: 75%;
     font-size: 1.6em;
 }
+
+#team{
+    padding-bottom: 20vh;
+}
+
+.team-title{
+    text-align: center;
+    font-size: 4em;
+    padding-bottom: -2px;
+    color: #000;
+    font-weight: 300;
+}
+
+.black-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    background-color: #000;
+    margin: auto;
+}
+
+.team-mem{
+    margin: 20px;
+    color:white;
+    font-size: 4em;
+    padding: 20px;
+    text-align: center;
+}
  
 #services{
-    height: 40vh;
+    height: 46vh;
     
 }
 
 
 .services-title{
-    margin-top: -220px;
+  
+    padding-top: 20px;
     font-size: 4em;
     text-align: center;
 
@@ -362,10 +394,11 @@ a.underline-link {
     .main-title{
        font-size: 4.2em;
     }
-
+/* 
     .logo{
-        width: 80%;
-    }
+        height: 20%;
+        width: 1e;
+    } */
 
     .gradient-separator{
         height: 4px;
