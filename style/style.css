@@ -156,6 +156,45 @@ nav a{
     padding: 20px;
     /* text-align: center; */
 }
+
+.btn-gradient{
+	background: linear-gradient(-80deg, #f5cb5c, #949494, #949494, #f5cb5c);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 5s ease infinite;
+    -moz-animation: Gradient 5s ease infinite;
+    animation: Gradient 5s ease infinite;
+    box-sizing: border-box;
+	color: #000;
+	display: block;
+	font-size: 1.8em;
+	height: 80px;
+	letter-spacing: 1px;
+	margin: 80px auto;
+	padding: 4px;
+	position: relative;
+    text-decoration: none;
+	text-transform: uppercase;
+	width: 264px;
+	z-index: 2;
+}
+
+.btn-gradient:hover {
+	color: #fff;
+}
+
+.btn-gradient span {
+	align-items: center;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	transition: background .5s ease;
+	width: 100%;
+}
+
+.btn-gradient:hover span {
+	background: transparent;
+}
  
 #services{
     height: 45vh;
@@ -488,6 +527,7 @@ a.underline-link {
 
     #home{
         height: 78vh;
+        background-image: url("../mobile.jpg");
     }
 
     .hide-mobile{
@@ -496,7 +536,7 @@ a.underline-link {
 
     a.underline-link {
         position: relative;
-        font-size: 1.8em;
+        font-size: 1.5em;
         margin: auto;
         padding: 15px;
         text-decoration: none;
@@ -536,6 +576,11 @@ a.underline-link {
     .flex-container {
         flex-direction: column;
         margin: auto;
+      }
+
+      .btn-gradient{
+        width: 120px;
+        height: 60px;
       }
 
       #services{
