@@ -496,9 +496,7 @@ a.underline-link {
        color: white;
       }
       
-      a.underline-link::before {
-        
-      }
+
 
     .main-title{
        font-size: 4.2em;
