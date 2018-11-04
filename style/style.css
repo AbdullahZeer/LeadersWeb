@@ -24,6 +24,9 @@ nav a{
     font-weight: 300;
     margin-right:2em;
 }
+a.btn-gradient:hover{
+    text-decoration: none;
+}
 
 #home{
     background-image: url("../Riyadh4.jpg");
