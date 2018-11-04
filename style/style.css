@@ -309,6 +309,14 @@ nav a{
     align-content: center;
     justify-content: center;
   }
+  
+  .flexguard{
+  display:flex;
+  flex-direction : row;
+  align-content: center;
+  justify-content: center;
+  
+  }
 
   .flex-container h4{
       margin-top: 10px;
@@ -366,7 +374,7 @@ a .instagram:hover path{
 }
 
 .hide{
-   opacity: 0;
+   display:none;
 }
 
 a.underline-link {
@@ -495,6 +503,12 @@ a.underline-link {
       a.underline-link:hover {
        color: white;
       }
+      
+
+  
+  a.underline-link::before {
+    height: 0px;
+  }
       
 
 
