@@ -10,6 +10,30 @@ html {
     scroll-behavior: smooth;
     background-color:black;
   }
+  .languge-box{
+      position: absolute;
+      width: 95%;
+  }
+  .languge-box ul{
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .languge-box li{
+    margin: 20px;
+    font-size:0.7em;
+}
+
+    .languge-box a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .current-languge{
+        background-color: white;
+    }
+
 
 nav{
     padding-top: 5%;
