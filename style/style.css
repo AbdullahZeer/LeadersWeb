@@ -90,6 +90,7 @@ a.btn-gradient:hover{
     font-weight: 300;
     margin-top: -13%;
     text-align: center;
+    font-family: 'Work Sans', sans-serif !important;
 }
 
 /* .main-title::after{
