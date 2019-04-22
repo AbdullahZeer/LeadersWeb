@@ -572,7 +572,11 @@ a.underline-link {
     .hide-mobile{
         display: none;
     }
-
+    .carousel-item > img{
+        height: 200px;
+        width: auto !important;
+        margin: auto;
+    }
     a.underline-link {
         position: relative;
         font-size: 1.5em;
